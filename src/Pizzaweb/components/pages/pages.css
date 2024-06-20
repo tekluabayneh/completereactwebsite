@@ -1,0 +1,32 @@
+.gr {
+  color: gold;
+  text-shadow: 2px 1px 1px #000000;
+  font-size: 4rem;
+  padding-top: 19rem;
+}
+.home-container {
+  display: flex;
+  align-items: flex-start;
+  padding: 12rem;
+  padding-top: 20rem;
+  flex-direction: column;
+}
+h4 {
+  color: floralwhite;
+}
+p {
+  color: darkslategray;
+}
+button {
+  margin-top: 2rem;
+}
+.menu,
+.About {
+  padding-top: 4rem;
+}
+
+.productName {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}

@@ -1,0 +1,30 @@
+/* .Shop {
+  width: 12rerm;
+  border: 1px solid black;
+} */
+img {
+  width: 3rem;
+}
+/* .products {
+  width: 2rem;
+  margin: 4rem;
+} */
+
+.products {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.product {
+  border-radius: 15px;
+  width: 300px;
+  height: 350px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

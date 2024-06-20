@@ -1,0 +1,35 @@
+.card_container_not {
+  width: 19rem;
+  box-shadow: 0 10px 8px #999;
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  background-color: white;
+  height: fit-content;
+}
+.card_img_not {
+  width: 100%;
+  height: 10rem;
+  border-radius: 0.6rem 0.6rem 0 0;
+  object-fit: cover;
+}
+.card_Title_not {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.5rem 0.5rem 0 0.5rem;
+}
+.card_description_not {
+  font-size: 0.7 rem;
+  margin: 0.5rem 0.5rem 0 0.5rem;
+}
+.card_btn_not {
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.6rem;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}

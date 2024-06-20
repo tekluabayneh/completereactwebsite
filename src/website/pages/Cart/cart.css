@@ -1,0 +1,34 @@
+/* .catritems {
+  width: 50%;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+.cartitrm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  justify-content: center;
+} */
+.catritems {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
+.cartitrm {
+  border-radius: 15px;
+  width: 500px;
+  height: 200px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: lightgoldenrodyellow;
+  box-shadow: 0 5px 5px 0 black;
+}

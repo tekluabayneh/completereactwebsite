@@ -1,0 +1,36 @@
+/* .navbar_conatiner {
+  width: 100%;
+  background: #000;
+  padding-left: 1rem;
+}
+.navlink_flex {
+  display: flex;
+  align-items: self-end;
+  justify-content: baseline;
+  color: white;
+}
+.Nav_Link {
+  font-size: 2rem;
+
+  color: white;
+  padding: 0.5rem 1rem;
+}
+.Nav_Link:hover,
+.Nav_Link:active {
+  color: white;
+}
+.badge {
+  width: 9rem;
+  font-size: 1.3rem;
+  padding: 0.9rem 0;
+  background: white;
+  color: black;
+} */
+li:hover {
+  cursor: pointer;
+}
+.navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 44;
+}

@@ -1,0 +1,52 @@
+.Navbarpizza {
+  width: 100%;
+  background: #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: fixed; */
+  /* top: 0; */
+  /* z-index: 1000; */
+  /* left: 0; */
+}
+.rightside ul {
+  display: flex;
+  column-gap: 1rem;
+}
+ul li {
+  list-style: none;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+a:hover {
+  text-decoration: underline;
+  color: aliceblue;
+}
+img {
+  width: 3.5rem;
+}
+.Hamburger {
+  display: none;
+}
+@media (max-width: 575.98px) {
+  .Hamburger {
+    display: block;
+  }
+
+  #close {
+    display: none;
+  }
+  #open {
+    display: block;
+    transition: 2s;
+  }
+
+  /* Your styles for extra small devices go here */
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Your styles for medium devices go here */
+}
